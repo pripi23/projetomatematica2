@@ -20,12 +20,9 @@
     </nav>
     <main>
         <article>
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non risus eu purus tristique bibendum.</p>
-            <p>A geladeira e um dispositivo comum em nossas residencias. A sua funcao e manter resfriado o que lhe for colocado dentro, tanto na parte de cima (congelador) quanto na parte de baixo. O resfriamento da geladeira por um todo ocorre por meio do congelador, que e por onde passa o gas sob alta pressao e baixa temperatura.</p>
-            <img src=""
-            <!-- More content goes here -->
-        </le>
+            <h2>Solidos geometricos</h2>
+            <script src="main.js"></script>
+        
         <p>Geladeira:A geladeira é um dispositivo comum em nossas residências. A sua fução é manter resfriado
             o que lhe for colocado dentro, tanto na parte de cima (congelador) quanto na parte de baixo. O resfriamento da geladeira por um todo ocorre por meio do congelador, que é por onde passa o gás sob alta pressão e baixa temperatura.
            Para calcular a área da geladeira, você precisa medir as dimensões do aparelho e multiplicar o comprimento pela largura. A fórmula é a mesma:
@@ -39,16 +36,9 @@
            Vamos supor que a geladeira tenha um comprimento de 70 centímetros e uma largura de 60 centímetros. A área seria:
            \[ A = 70 \, \text{cm} \times 60 \, \text{cm} \]
            \[ A = 4200 \, \text{cm}^2 \]
-           Portanto, a área ocupada pela geladeira seria de \(4200 \, \text{cm}^2\). Ajuste as unidades conforme necessário para suas medições específicas.
-           O consumo de energia de uma geladeira é medido em watts-hora (Wh) ou quilowatts-hora (kWh). Para calcular o consumo de energia, você precisará das seguintes informações:
-           1. **Potência da Geladeira (P):** Geralmente, a potência de aparelhos eletrodomésticos, incluindo geladeiras, é indicada em watts (W) ou quilowatts (kW).
-           2. **Tempo de Uso (t):** O tempo durante o qual a geladeira está ligada ou em operação, geralmente medido em horas.
-           O consumo de energia (E) pode ser calculado pela fórmula:
-           \[ E = P \times t \]
-           Se a potência da geladeira for, por exemplo, 150 watts (ou 0,15 kW) e ela estiver ligada por 24 horas, o consumo diário seria:
-           \[ E = 0,15 \, \text{kW} \times 24 \, \text{h} \]
-           \[ E = 3,6 \, \text{kWh} \]
-           Isso significa que a geladeira consome 3,6 quilowatts-hora por dia. Se você quiser calcular o consumo mensal, basta multiplicar esse valor pelo número de dias no mês.Lembre-se de verificar a etiqueta energética da geladeira ou o manual do usuário para obter informações precisas sobre a potência do aparelho, pois as geladeiras modernas geralmente são mais eficientes em termos energéticos.
+          
+           
+        Isso significa que a geladeira consome 3,6 quilowatts-hora por dia. Se você quiser calcular o consumo mensal, basta multiplicar esse valor pelo número de dias no mês.Lembre-se de verificar a etiqueta energética da geladeira ou o manual do usuário para obter informações precisas sobre a potência do aparelho, pois as geladeiras modernas geralmente são mais eficientes em termos energéticos.
            Os custos seriam o custo da compra,consumo da energia,manutenção.
            <h2>Paralelepípedo</h2>
            <label for="paralelepipedoComprimento">Comprimento:</label>
@@ -60,7 +50,7 @@
            <button onclick="calcularVolumeParalelepipedo()">Calcular Volume</button>
            <button onclick="calcularAreaParalelepipedo()">Calcular Área</button>
            <p id="paralelepipedoResultado"></p>
-           </p><img src="imagemgeladeira" src="/home/aluno/Downloads/projetomatematica2-main/projetopriscilla/imagens/geladeira.jpn">
+           </p><img src="imagens/geladeira.jpn" src="/home/aluno/Downloads/projetomatematica2-main/projetopriscilla/imagens/geladeira.jpn">
         <p>Micro-ondas
 
 
@@ -84,17 +74,16 @@
             Portanto, o consumo de energia do micro-ondas seria de 0,5 kWh durante 0,5 horas de uso.
             Certifique-se de verificar a etiqueta do micro-ondas para obter a potência nominal específica do seu aparelho, já que ela pode variar. Além disso, os tempos de uso e padrões de uso influenciarão diretamente no consumo total de energia ao longo do tempo.
             Os custos são o custo da compra,consumo da energia,manutenção.
-            <h2>Paralelepípedo</h2>
-    <label for="paralelepipedoComprimento">Comprimento:</label>
-    <input type="number" id="paralelepipedoComprimento">
-    <label for="paralelepipedoLargura">Largura:</label>
-    <input type="number" id="paralelepipedoLargura">
-    <label for="paralelepipedoAltura">Altura:</label>
-    <input type="number" id="paralelepipedoAltura">
-    <button onclick="calcularVolumeParalelepipedo()">Calcular Volume</button>
-    <button onclick="calcularAreaParalelepipedo()">Calcular Área</button>
-    <p id="paralelepipedoResultado"></p>
-            </p><img class="imagemmicroondas" src="/home/aluno/Downloads/projetomatematica2-main/projetopriscilla/imagens/Sem título.jpeg">
+            
+            <h2>Cone</h2>
+            <label for="coneRaio">Raio da Base:</label>
+    <input type="number" id="coneRaio">
+    <label for="coneAltura">Altura do Cone:</label>
+    <input type="number" id="coneAltura">
+    <button onclick="calcularVolumeCone()">Calcular Volume</button>
+    <button onclick="calcularAreaCone()">Calcular Área</button>
+    <p id="coneResultado"></p>
+            </p><img class="imagemmicroondas" src="imagens/Sem título.jpeg">
         <p>Máquina de lavar:
 
             Máquina é um dispositivo artificial que utiliza a conversão de energia para atingir objetivos predeterminados. As máquinas podem ser de natureza mecânica, eletromecânica, elétrica, eletrônica, etc.
@@ -128,7 +117,7 @@
             <button onclick="calcularAreaCubo()">Calcular Área</button>
             <p id="cuboResultado"></p>
         
-            </p><img class="imagemmaquinadelavar" src="/home/aluno/Downloads/projetomatematica2-main/projetopriscilla/imagens/images.jpeg">
+            </p><img class="imagemmaquinadelavar" src="imagens/images.jpeg">
         <p>Chuveiro
 
             O chuveiro elétrico é um eletrodoméstico que funciona em decorrência da abertura de seu registro e da escolha do modo de regulação da resistência elétrica.
@@ -151,7 +140,7 @@
           <button onclick="calcularVolumeCilindro()">Calcular Volume</button>
           <button onclick="calcularAreaCilindro()">Calcular Área</button>
           <p id="cilindroResultado"></p>
-        </p><img class="imagemchuveiro" src="/home/aluno/Downloads/projetomatematica2-main/projetopriscilla/imagens/772973_2_1664029724.jpgchuveiro">
+        </p><img class="imagemchuveiro" src="imagens/772973_2_1664029724.jpgchuveiro">
         <p>Televisão
 
 
@@ -197,17 +186,14 @@
             7. **Taxas e Impostos:**
                - Dependendo da região, pode haver taxas ou impostos associados à compra de uma televisão.
             Ao tomar decisões sobre a compra de uma televisão, é importante considerar tanto os custos iniciais quanto os custos operacionais a longo prazo. Escolher uma TV eficiente em termos energéticos, manter práticas de uso conscientes e considerar as características de economia de energia podem ajudar a reduzir os custos operacionais ao longo do tempo.
-            <h2>Paralelepípedo</h2>
-            <label for="paralelepipedoComprimento">Comprimento:</label>
-            <input type="number" id="paralelepipedoComprimento">
-            <label for="paralelepipedoLargura">Largura:</label>
-            <input type="number" id="paralelepipedoLargura">
-            <label for="paralelepipedoAltura">Altura:</label>
-            <input type="number" id="paralelepipedoAltura">
-            <button onclick="calcularVolumeParalelepipedo()">Calcular Volume</button>
-            <button onclick="calcularAreaParalelepipedo()">Calcular Área</button>
-            <p id="paralelepipedoResultado"></p>
-        </p><img class="imagemtv" src="/home/aluno/Downloads/projetomatematica2-main/projetopriscilla/imagens/tele.jpeg">
+           
+            <h2>Esfera</h2>
+    <label for="esferaRaio">Raio da Esfera:</label>
+    <input type="number" id="esferaRaio">
+    <button onclick="calcularVolumeEsfera()">Calcular Volume</button>
+    <button onclick="calcularAreaEsfera()">Calcular Área</button>
+    <p id="esferaResultado"></p>
+        </p><img class="imagemtv" src="imagens/tele.jpeg">
         <h1>Calculadora de Consumo de Energia Elétrica</h1>
         <form>
             <label>Potência (W): <input type="number" id="potencia"></label><br>
